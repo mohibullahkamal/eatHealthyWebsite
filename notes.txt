@@ -1,0 +1,29 @@
+10.07.2018(Tues):
+
+//building the header - section0:
+
+.herotext {
+postionabsolite
+width 50
+top 5050perceleft50%
+transform: transfrom(-50%, 50%)
+
+
+header{
+//make background a bit darker..make to images at the same time..
+background-imaege: linar-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(img/....)
+}#000c
+
+040-building the header...
+change coloe of headubf to #fff fontsize to 240%, in responsive design set html
+to px and below h1 to % so they can change responsively
+lets set to texttransform--upper case tso its looks nice
+we use the text-transform to upper, letter and word spacing to 1px and 4px respec...
+put a br so it looks good.
+
+now lets formals the bieeons
+first we atriinute class btn calss btn btn-f-fullclass and btn btn-ghost
+.btn in css a normal button is inline element but we need it inline blokc padding to 10 30px
+fontweight 300   text decor none
+use flat uicolors to select nie orange uicolorsnow we want the buttin to be nice
+and round so border radius 

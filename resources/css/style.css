@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+  color: #555;
+  font-family: 'Lato', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+.row{
+  max-width: 1140px;
+  margin: 0 auto 0 auto;
+}
+
+/*Setting background image for header...  */
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),
+  url(img/hero.jpg);
+  /* background image centering */
+  background-size: cover;
+  background-position: center;
+  /*---"vh" meaning its 100% of the viewing height */
+  height: 100vh;
+}
+
+.hero-text-box{
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+h1{
+  margin: 0;
+  color: #fff;
+  font-size: :240%;
+  text-transform: uppercase;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
