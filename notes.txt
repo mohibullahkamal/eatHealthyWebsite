@@ -58,6 +58,84 @@ lets go to class .logo{height 100px;
 width: auto float:left,
 .main-nav{float to right... now we want to get rid of bullet points
 
+AGAIN -- <HEADER <nav <div class="row <img src="resources/img/logo-white... alt="eatHealthy logo" class="logo>
+<ul class"main-nav
+<li <a href="#>li>
+4 times copies
+
+
+... now go to style.css...
+.logo {
+height:100; width:auto; float:right;
+
+.main-nav {
+float:right; list-style:none; now get rid of bullet points... list-style:none; 
+
+.main-nav li {
+display: inline-block; margin-left:40px;
+
+.main-nav li a {
+color: white; text-decoration: none;
+text-transform: uppercase; font-size:90%..because we always 
+represent it in % here after main html{ was font-sie20px... for responsive design we keep it in %... here we want 18px.. so we divide 18/20... we get 90%...
+
+now we want the logo and the nav buttons to be centered...
+.logo{
+margin-top:20px;
+
+.main-nav{
+margin-top:55px...eyeball it...
+
+lets put hover effect on the nav button... when hover
+a 2px border...
+
+.main-nav li a:link,
+.main-nav li a:visited(we did this before-visited link should look same) {... 
+
+.main-nav li a:hover,
+.main-nav li a:active { we want a nice border around nav
+button when selected...
+border-bottom: 2px solid dark orange....
+
+but we want a nice transition... so we put a bottom at link visited... and add border-bottom: 2px solid transparent;.. it won't be visible until we hover... and transition:border
+-bottom 0.4s;
+and we need now the underline to be a bit below the nav button for beauty.. so...we add padding:8px 0
+
+************
+**************
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

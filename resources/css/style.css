@@ -60,7 +60,8 @@ h1{
 /* Sometimes we see webpages have different text color
 when returning back after selecting that text... to fix that use
 tag - .btn:link, .btn:visited - below...*/
-.btn:link, .btn:visited{
+.btn:link,
+.btn:visited{
   display: inline-block;
   padding: 10px 30px;
   font-weight: 300;
@@ -69,25 +70,30 @@ tag - .btn:link, .btn:visited - below...*/
   transition: background-color 0.3s, border 0.3s, color 0.3s;
   margin-top: 50px;
 }
-.btn:hover, .btn:active {
+.btn:hover,
+.btn:active {
   background-color: #CB5A00;
 }
 
-.btnHungry:link, .btnHungry:visited{
+.btnHungry:link,
+.btnHungry:visited{
   background-color: orange;
   border: 2px solid orange;
   color: #fff;
   /* Separate the two button a bit.. */
   margin-right: 15px;
 }
-.btnHungry:hover, .btnHungry:active {
+.btnHungry:hover,
+.btnHungry:active {
   background-color: #CB5A00;
 }
 
-.btnMore:link, .btnMore:visited{
+.btnMore:link,
+.btnMore:visited{
   border: 2px solid orange;
   color: orange;
 }
-.btnMore:hover, .btnMore:active {
+.btnMore:hover,
+.btnMore:active {
   color: #fff;
 }
