@@ -20,10 +20,44 @@ to px and below h1 to % so they can change responsively
 lets set to texttransform--upper case tso its looks nice
 we use the text-transform to upper, letter and word spacing to 1px and 4px respec...
 put a br so it looks good.
-
+**************
+**************
 now lets formals the bieeons
-first we atriinute class btn calss btn btn-f-fullclass and btn btn-ghost
-.btn in css a normal button is inline element but we need it inline blokc padding to 10 30px
+first we atriinute class btn calss btn btn-f-fullclass and 
+btn btn-ghost
+.btn in css a normal button is inline element but we need 
+it inline blokc
+padding to 10 30px
 fontweight 300   text decor none
 use flat uicolors to select nie orange uicolorsnow we want the buttin to be nice
-and round so border radius 
+and round so border radius
+
+thn we can say what to do when hover... .btn:hover,.btn
+h:active{ get darker shade of a color, 0to255.com,
+choose a darker shade... copy no. and {background color:
+darker orange, now we have a orange text door text on 
+button change..  
+bit advances.. transition.. .btnHUNGRY.link.viisted... 
+transition: background-color 0.2s, border 0.2s, color
+0.2s...
+add margin-right:15px
+
+***********
+*********
+Building header part 3:
+LETS put logo and navigation bar on top of this page...
+.html .... <na>...<div class..row... <img..src=...logo
+white alt=omnifood logo  class=logo>
+
+Now for the navigation... unordered list... <ul class main-nav
+<li> <a href=#>food delivery</a></li>
+<li how it works
+<li our cities...
+now the logo is huge... lets set the sizing...
+lets go to class .logo{height 100px;
+width: auto float:left,
+.main-nav{float to right... now we want to get rid of bullet points
+
+
+
+
