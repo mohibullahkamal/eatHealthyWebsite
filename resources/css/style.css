@@ -1,7 +1,7 @@
 /* -------------------------------------- */
 /* BASIC SETUP */
 /* -------------------------------------- */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,14 +19,14 @@ html {
 /* --------------------------------------- */
 /* HEADER */
 /* --------------------------------------- */
-.row{
+.row {
   max-width: 1140px;
   margin: 0 auto 0 auto;
 }
 
 /* ------HEADING------ */
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
   url(img/hero.jpg);
   /* background image centering */
   background-size: cover;
@@ -35,24 +35,73 @@ header {
   height: 100vh;
 }
 
-.hero-text-box{
+.hero-text-box {
   position: absolute;
   width: 1140px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform:translate(-50%, -50%);
 }
+
 
 /* -------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* -------------------------------------- */
-h1{
-  margin: 0;
-  color: #fff;
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: white;
   font-size: 240%;
+  font-weight: 400;
   text-transform: uppercase;
   word-spacing: 4px;
   letter-spacing: 1px;
+}
+
+/* ----- LOGO and NAV BAR ----- */
+.logo {
+  height: 150px;
+  width: auto;
+  float: left;
+  border-radius: 50px;
+  margin-top: 20px;
+  /* this is the transition magic...height set
+  to 'x's..... check height in .logo:hover,
+  .logo:active{.....}  */
+  transition: height 0.3s;
+}
+.logo:hover,
+.logo:active{
+  height: 200px;
+}
+
+.main-nav {
+  float: right;
+  /* get rid of bullet pts. */
+  list-style: none;
+  margin-top: 75px;
+}
+.main-nav li {
+  display: inline-block;
+  margin-left: 60px;
+}
+.main-nav li a:link,
+.main-nav li a:visited {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  /* set it in % for responsive design */
+  font-size: 90%;
+  border-bottom: 4px solid transparent;
+  transition: border-bottom 0.5s, background-color 4s, color 0.5s;
+  padding: 4px 0;
+}
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 4px solid red;
+  background-color: red;
+  color: white;
 }
 
 /* ------ BUTTONS ------ */
@@ -60,40 +109,61 @@ h1{
 /* Sometimes we see webpages have different text color
 when returning back after selecting that text... to fix that use
 tag - .btn:link, .btn:visited - below...*/
-.btn:link,
-.btn:visited{
+/* .btn: link,
+.btn: visited  */
+.btn {
   display: inline-block;
   padding: 10px 30px;
   font-weight: 300;
   text-decoration: none;
   border-radius: 200px;
-  transition: background-color 0.3s, border 0.3s, color 0.3s;
+  /* awesome settings... I can change color of text changing
+  with -->  'color' */
+  transition: background-color 0.2s, border 0.2s, color 0.5s;
   margin-top: 50px;
-}
-.btn:hover,
-.btn:active {
-  background-color: #CB5A00;
 }
 
 .btnHungry:link,
 .btnHungry:visited{
   background-color: orange;
-  border: 2px solid orange;
+  border: 2px solid #CB5A0;
   color: #fff;
   /* Separate the two button a bit.. */
   margin-right: 15px;
 }
-.btnHungry:hover,
-.btnHungry:active {
-  background-color: #CB5A00;
-}
 
 .btnMore:link,
-.btnMore:visited{
+.btnMore:visited {
   border: 2px solid orange;
   color: orange;
 }
+
+.btn:hover,
+.btn:active {
+  background-color: #CB5A00;
+}
+
+.btnHungry:hover,
+.btnHungry:active {
+  /* here i want the color property to change
+  as I mentioned in --> .btn {transition:
+  background-color 0.2s, border 0.2s, color 1s;
+  HAHAHA awesome... */
+  color: Black;
+  /* background-color: 2px solid green; */
+}
+
 .btnMore:hover,
 .btnMore:active {
+  border: 2px solid #CB5A00;
+  /* here i want the color property to change
+  as I mentioned in --> .btn {transition:
+  background-color 0.2s, border 0.2s, color 1s;
+  HAHAHA awesome... */
   color: #fff;
 }
+
+
+/* -------------------------------------- */
+/* gerjkgnreojgn */
+/* -------------------------------------- */

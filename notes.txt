@@ -97,25 +97,43 @@ a 2px border...
 button when selected...
 border-bottom: 2px solid dark orange....
 
-but we want a nice transition... so we put a bottom at link visited... and add border-bottom: 2px solid transparent;.. it won't be visible until we hover... and transition:border
+but we want a nice transition... so we put a bottom at link visited... and add border-bottom: 2px solid transparent;.. it won't be visible until we hover... and 1transition:border
 -bottom 0.4s;
 and we need now the underline to be a bit below the nav button for beauty.. so...we add padding:8px 0
 
-************
-**************
 
- 
+****************************************
+********** features section ************
+****************************************
+features section... based on sketch...
 
-
-
-
-
-
-
+-> how to put content on website using :after pseudo-class
+-> for the first time we use fluid grid to build the features column..
+-> we learn to use icons..
 
 
+<section.. in html we actually have element named section..
+class="section-features>
+<div class=row
+<h2 
 
 
+
+
+
+
+
+
+
+header---------------1pm -> done
+features-------------3pm -> 
+favouritesMeal-------
+howItWorks-----------
+cities---------------
+customerTestimonial--
+signup---------------
+contactForm----------
+footer---------------
 
 
 
