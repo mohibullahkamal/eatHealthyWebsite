@@ -263,3 +263,29 @@ AT 480 PIXELS ====== */
 .span-1-of-4 {
 	width: 23.8%;
 }
+
+/* =============================== */
+/* ============ MEALS ============ */
+/* =============================== */
+
+.meals-showcase {
+  list-style: none;
+  /* we want it to fit the entire browser width.. */
+  width: 100%;
+ }
+
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.meal-photo {
+  width: 100%;
+  margin: 0;
+}
+
+.meal-photo img {
+  width: 100%;
+  height: auto;
+}
