@@ -164,6 +164,40 @@ tag - .btn:link, .btn:visited - below...*/
 }
 
 
-/* -------------------------------------- */
-/* gerjkgnreojgn */
-/* -------------------------------------- */
+/* =============================== */
+/* ====== GRID COLUMN SETUP ====== */
+/* =============================== */
+.col {
+	display: block;
+	float: left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+/* All browsers exceptIE6 and lower */
+
+
+/* ==== REMOVE MARGINS AS ALL GO FULL WIDTH
+AT 480 PIXELS ====== */
+@media only screen and (max-width:480px){
+	.col {
+		/*margin: 1% 0 1% 0%*/
+		margin: 0;
+	}
+}
+
+/* =============================== */
+/* ========= GRID OF FOUR ======== */
+/* =============================== */
+
+.span-4-of-4 {
+	width: 100%;
+}
+.span-3-of-4 {
+	width: 74.6%;
+}
+.span-2-of-4 {
+	width: 49.2%;
+}
+.span-1-of-4 {
+	width: 23.8%;
+}
