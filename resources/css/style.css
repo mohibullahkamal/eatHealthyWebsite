@@ -134,6 +134,7 @@ also be used for other classes.. */
 }
 .main-nav li a:link,
 .main-nav li a:visited {
+  border-radius: 50px;
   color: white;
   text-decoration: none;
   margin-bottom: 20px;
@@ -142,12 +143,12 @@ also be used for other classes.. */
   font-size: 90%;
   border-bottom: 4px solid transparent;
   transition: border-bottom 0.5s, background-color 1.5s, color 0.5s;
-  padding: 4px 0;
+  padding: 8px 12px;
 }
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 4px solid orange;
-  background-color: orange;
+  background-color: #CB5A00;
   color: white;
 }
 
