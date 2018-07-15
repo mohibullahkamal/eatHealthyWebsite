@@ -289,25 +289,76 @@ so we make a new section again...
 ....Now lets work to have hover effect on the food images..
 
 
- 
+// I dont like the padding between the 1st row and 2nd row food images...
+// there let:
+<!-- MEALS -->
+.section-meals {
+  padding: 0;
+}
 
+/* ...next is animation...when we hover the image gets
+zoomed in and get darker... */
+/* we scale the img ... */
+.meal-photo img {
+  ....
+  transform: scale(1.15);
+  /* this will give nice effect to transform
+  scale...*/
+  transition: transform 0.5s;
+}
 
+/* but not the images are too big and it
+overflows the browser window.... we will use
+overflow:hidden in .meal-photo{... */
 
+.meal-photo img:hover {
+  transform: scale(1.03);
+}
+
+/* We have nice transition now... lets now try to
+make the img darker when hovered... using opacity */
+.meal-photo img {
+  opacity: 0.7;
+  .....
+}
+
+/* we now get a bit of whitish image... If we want darker
+img then we can use a black background... */
+.meal-photo {
+  ...
+  background-color: black;
+}
+
+/* Very well the img got darker in general but
+now we have to animate the opacity here */
+
+.meal-photo img {
+  ...
+  transition: ..., opacity 0.5s;
+}
+.meal-photo img:hover{
+  opacity: 1;
+  ...
+}
+
+//Hurray done !!!!!!!!!...
 
 
 ************************
 ************************
 
 
-header---------------[....]....-1300 -> done
-features-------------[0714]1000-1330 -> done
-favouritesMeal-------[0715]1330-1500 ->
-howItWorks-----------[0715] ->
-cities---------------[0715] ->
-customerTestimonial--[0715] ->
-signup---------------[0715] ->
-contactForm----------[0715] ->
-footer---------------[0715] ->
+
+
+header---------------[.....]....-1300 -> done
+features-------------[07/14]1000-1330 -> done
+favouritesMeal-------[07/15]1330-2030 -> done
+howItWorks-----------[07/15]2100-2300 ->
+cities---------------[07/15] ->
+customerTestimonial--[07/15] ->
+signup---------------[07/15] ->
+contactForm----------[07/15] ->
+footer---------------[07/15] ->
 
 
 
