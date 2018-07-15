@@ -1,6 +1,6 @@
-/* -------------------------------------- */
-/* BASIC SETUP */
-/* -------------------------------------- */
+/* ============================= */
+/* ======== BASIC SETUP ======== */
+/* ============================= */
 * {
   margin: 0;
   padding: 0;
@@ -16,17 +16,17 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-/* --------------------------------------- */
-/* HEADER */
-/* --------------------------------------- */
+/* ================================ */
+/* ============ HEADER ============ */
+/* ================================ */
 .row {
   max-width: 1140px;
   margin: 0 auto 0 auto;
 }
 
-/* ------HEADING------ */
+/* ==== HEADING ==== */
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
   url(img/hero.jpg);
   /* background image centering */
   background-size: cover;
@@ -44,21 +44,65 @@ header {
 }
 
 
-/* -------------------------------------- */
-/* REUSABLE COMPONENTS */
-/* -------------------------------------- */
+/* ============================== */
+/* ==== REUSABLE COMPONENTS ==== */
+/* ============================== */
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
 h1 {
   margin-top: 0;
   margin-bottom: 20px;
   color: white;
   font-size: 240%;
-  font-weight: 400;
-  text-transform: uppercase;
   word-spacing: 4px;
   letter-spacing: 1px;
 }
 
-/* ----- LOGO and NAV BAR ----- */
+h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+h2::after {
+  display: block;
+  height: 2px;
+  background-color: orange;
+  content: " ";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
+}
+
+.section-features {
+  padding: 80px 0;
+}
+
+.box {
+  padding: 1%;
+}
+
+.box p {
+  font-size: 90%;
+  line-height: 145%;
+}
+
+/* ============================== */
+/* ======= LOGO and NAV BAR ======= */
+/* ============================== */
+
 .logo {
   height: 150px;
   width: auto;
@@ -104,8 +148,9 @@ h1 {
   color: white;
 }
 
-/* ------ BUTTONS ------ */
-
+/* ======================== */
+/* ====== BUTTONS ====== */
+/* ======================== */
 /* Sometimes we see webpages have different text color
 when returning back after selecting that text... to fix that use
 tag - .btn:link, .btn:visited - below...*/
@@ -186,9 +231,26 @@ AT 480 PIXELS ====== */
 }
 
 /* =============================== */
+/* ========== PARAGRAPHS ========= */
+/* =============================== */
+.long-copy {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+
+/* ---- ICONS ----*/
+.icon-big {
+  font-size: 350%;
+  display: block;
+  color: orange;
+  margin-bottom: 10px;
+}
+
+/* =============================== */
 /* ========= GRID OF FOUR ======== */
 /* =============================== */
-
 .span-4-of-4 {
 	width: 100%;
 }
