@@ -16,6 +16,16 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+/* this is used to clear the float */
+.clearfix {zoom: 1}
+.clearfix::after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
 /* ================================ */
 /* ============ HEADER ============ */
 /* ================================ */
@@ -235,14 +245,14 @@ tag - .btn:link, .btn:visited - below...*/
 }
 
 /* =============================== */
-/* ========== FEATURES ========== */
+/* === FEATURES SECTION ========== */
 /* =============================== */
 .section-features .long-copy {
   margin-bottom: 30px;
 }
 
 /* =============================== */
-/* ============ MEALS ============ */
+/* ====== MEALS SECTION ========== */
 /* =============================== */
 
 .section-meals{
@@ -290,32 +300,33 @@ overflow:hidden in .meal-photo{... */
 }
 
 /* =============================== */
-/* ========= HOW IT WORKS ======== */
+/* ===== HOW IT WORKS SECTION ==== */
 /* =============================== */
-.app-screen {
-  height: 500px;
-}
-
-.btn-app img {
-  height: 50px;
-}
-
-.steps-box {
-  margin-top: 30px;
+.section-steps {
+  background-color: #f4f4f4;
 }
 
 .steps-box:first-child {
   text-align: right;
   padding-right: 3%;
+  margin-top: 30px;
 }
 
 .steps-box:last-child {
   padding-left: 3%;
-  margin-top: 70px; 
+  margin-top: 70px;
 }
 
 .app-screen {
   width: 40%;
+}
+
+.works-step {
+  margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+  margin-bottom: 80px;
 }
 
 .works-step div {
@@ -323,7 +334,7 @@ overflow:hidden in .meal-photo{... */
   border: 2px solid orange;
   display: inline-block;
   border-radius: 50%;
-  height: 50px;
+  height: 55px;
   width: 55px;
   text-align: center;
   padding: 5px;
@@ -332,11 +343,16 @@ overflow:hidden in .meal-photo{... */
   margin-right: 25px;
 }
 
+.btn-app img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
 
 
-
-
-
+/* =============================== */
+/* ========= CITIES SECTION ======== */
+/* =============================== */
 
 
 
