@@ -174,9 +174,9 @@ also be used for other classes.. */
   color: white;
 }
 
-/* ======================== */
+/* ===================== */
 /* ====== BUTTONS ====== */
-/* ======================== */
+/* ===================== */
 /* Sometimes we see webpages have different text color
 when returning back after selecting that text... to fix that use
 tag - .btn:link, .btn:visited - below...*/
