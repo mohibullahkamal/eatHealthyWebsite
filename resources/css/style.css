@@ -17,6 +17,17 @@ html {
 }
 
 /* this is used to clear the float */
+/* Not really understood cause not in scope */
+/* its quite often used in webdesign dev..
+ but its ok if u don't understand it now...
+ It will clear the element "after" ul element runs...
+ The child element of this class which are the
+ <li> elements are the ones which has
+ the float property... and so we say the parent
+ the parent has this "clearfix" class and then that
+ float will be cleared after the ul element...
+ and we do that in two of the <ul> elemets and now
+ the problem is solved... */
 .clearfix {zoom: 1}
 .clearfix::after {
   content: '.';
@@ -32,8 +43,9 @@ html {
 
 /* ==== HEADING ==== */
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
-  url(img/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.5)),
+    url(img/hero.jpg);
   /* background image centering */
   background-size: cover;
   background-position: center;
@@ -350,9 +362,33 @@ overflow:hidden in .meal-photo{... */
 }
 
 
+
+
 /* =============================== */
 /* ========= CITIES SECTION ======== */
 /* =============================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
