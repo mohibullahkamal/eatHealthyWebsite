@@ -124,9 +124,28 @@ also be used for other classes.. */
   margin: 0 auto;
 }
 
-/* ============================== */
-/* ======= LOGO and NAV BAR ======= */
-/* ============================== */
+/* icon-small is done for "Cities feature" but
+could be reused in other classes */
+.icon-small {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: orange;
+  font-size: 120%;
+  margin-right: 10px;
+
+  /* secrets to align text and icons..
+  =ve margin gives space and -ve takes away...
+  so adjust it however to desire..*/
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+
+
+/* =================================================== */
+/* ======= LOGO and NAV BAR ========================== */
+/* =================================================== */
 
 .logo {
   height: 150px;
@@ -174,9 +193,31 @@ also be used for other classes.. */
   color: white;
 }
 
-/* ===================== */
-/* ====== BUTTONS ====== */
-/* ===================== */
+/* ========================================== */
+/* ====== LINKS ============================= */
+/* ========================================== */
+a:link,
+a:visited {
+  color: orange;
+  text-decoration: none;
+  border-bottom: 1px solid orange;
+  padding: 1px;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+  color: gray;
+  border-bottom: 1px solid transparent;
+}
+
+
+
+
+
+/* ========================================== */
+/* ====== BUTTONS =========================== */
+/* ========================================== */
 /* Sometimes we see webpages have different text color
 when returning back after selecting that text... to fix that use
 tag - .btn:link, .btn:visited - below...*/
@@ -234,9 +275,9 @@ tag - .btn:link, .btn:visited - below...*/
   color: #fff;
 }
 
-/* =============================== */
-/* ========== PARAGRAPHS ========= */
-/* =============================== */
+/* ==================================================== */
+/* ========== PARAGRAPHS ============================== */
+/* ==================================================== */
 .long-copy {
   line-height: 145%;
   width: 70%;
@@ -256,16 +297,16 @@ tag - .btn:link, .btn:visited - below...*/
   margin-bottom: 10px;
 }
 
-/* =============================== */
-/* === FEATURES SECTION ========== */
-/* =============================== */
+/* ==================================================== */
+/* === FEATURES SECTION =============================== */
+/* ==================================================== */
 .section-features .long-copy {
   margin-bottom: 30px;
 }
 
-/* =============================== */
-/* ====== MEALS SECTION ========== */
-/* =============================== */
+/* ==================================================== */
+/* ====== MEALS SECTION =============================== */
+/* ==================================================== */
 
 .section-meals{
   padding: 0;
@@ -311,9 +352,9 @@ overflow:hidden in .meal-photo{... */
   opacity: 1;
 }
 
-/* =============================== */
-/* ===== HOW IT WORKS SECTION ==== */
-/* =============================== */
+/* ==================================================== */
+/* ===== HOW IT WORKS SECTION ========================= */
+/* ==================================================== */
 .section-steps {
   background-color: #f4f4f4;
 }
@@ -355,6 +396,11 @@ overflow:hidden in .meal-photo{... */
   margin-right: 25px;
 }
 
+.btn-app:link,
+.btn-app:visited {
+  border: 0;
+}
+
 .btn-app img {
   height: 50px;
   width: auto;
@@ -364,27 +410,30 @@ overflow:hidden in .meal-photo{... */
 
 
 
-/* =============================== */
-/* ========= CITIES SECTION ======== */
-/* =============================== */
+/* ==================================================== */
+/* ========= CITIES SECTION =========================== */
+/* ==================================================== */
 .cities img{
-  height: 230px;
+  height: 200px;
   width: auto;
   padding: 20px 0;
 }
 
-.cities h3 {
+/* .cities h3 {
   font-size: 20px;
 
 }
+ */
 
-.icon-small {
-  font-size: 170%;
-  color: orange;
-  float:left;
+.cities img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px
 }
 
-
+.city-feature {
+  margin-bottom: 5px;
+}
 
 
 
