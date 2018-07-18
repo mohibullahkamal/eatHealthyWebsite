@@ -226,10 +226,13 @@ tag - .btn:link, .btn:visited - below...*/
 .btn: visited  */
 .btn {
   display: inline-block;
-  padding: 10px 30px;
+  padding: 20px;
   font-weight: 300;
   text-decoration: none;
-  border-radius: 200px;
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+  text-align: center;
   /* awesome settings... I can change color of text changing
   with -->  'color' */
   transition: background-color 0.2s, border 0.2s, color 0.5s;
@@ -499,18 +502,67 @@ cite img {
 }
 
 /* ==================================================== */
-/* ========= SIGN-UP SECTION ========================== */
+/* ========= PLANS SECTION ========================== */
 /* ==================================================== */
+/* We learn:
+     [1]Design with border radius,
+     [2]How to create box shadows with CSS.. */
+/* ==================================================== */
+.section-plans {
+  background-color: #f4f4f4;
+}
 
+.plan-box {
+  background-color: #fff;
+  border-radius: 5px;
+  border-top-right-radius: 140px;
+  border-bottom-left-radius: 140px;
+  width: 90%;
+  margin-left: 5%;
+  /* box-shadow: x-axisOffset y-axisOffset blur color */
+  box-shadow: 0 10px 20px gray;
+}
 
+.plan-box div {
+  padding: 15px;
+  border-bottom: 4px solid #f4f4f4;
+}
 
+.plan-box div:first-child {
+  background-color: #f9f9f9;
+  border-top-right-radius: 140px;
+}
 
+.plan-box div:last-child {
+  text-align: center;
+  border: 0;
+}
 
+.plan-price {
+  font-size: 300%;
+  margin-bottom: 10px;
+  font-weight: 100;
+  color: orange;
+}
 
+/* Below is the child of ".plan-price" so will
+inherit all features from parent... */
+.plan-price span{
+  font-size: 30%;
+  font-weight: 300;
+}
 
+.plan-price-meal {
+  font-size: 80%
+}
 
+.plan-box ul {
+  list-style: none;
+}
 
-
+.plan-box ul li {
+  padding: 5px 0;
+}
 
 /* ==================================================== */
 /* ========= CONTACT FORM SECTION ===================== */
