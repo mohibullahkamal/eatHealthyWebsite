@@ -51,6 +51,7 @@ header {
   background-position: center;
   /*---"vh" meaning its 100% of the viewing height */
   height: 100vh;
+  background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -435,11 +436,100 @@ overflow:hidden in .meal-photo{... */
   margin-bottom: 5px;
 }
 
-
-
 /* ==================================================== */
 /* ========= TESTIMONIAL SECTION ====================== */
 /* ==================================================== */
+
+/* Using Linear gradient to make nice darker image
+in the background */
+.section-testimonials {
+  background-image: linear-gradient(rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)), url(img/back-customers.jpg);
+  background-size: cover;
+  color: white;
+  /* A very cool effect for background image with css */
+  background-attachment: fixed;
+}
+
+/* Mind it... its a selector and NOT a class.. */
+blockquote {
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  /* the child; in this case "blockquote:before {}" has
+  position: absolute.. so we MUST have this class(parent element)
+  set to position: relative.. */
+  position: relative;
+  margin-top: 40px;
+}
+
+/* Mind it... its a selector and NOT a class; just
+the "blockquote" above... */
+cite {
+  font-size: 90%;
+  margin-top: 25px;
+  display: block;
+}
+
+/* We use Sudo "before" because we want
+this function to appear before "cite" occurs.. */
+blockquote:before {
+  /* remember adding text using ONLY css directly...
+  use "content"; "\201C" in code for quotation...
+  Now we need to have this in new line.. so we
+  have to make the quatation as a block element...*/
+  content: "\201C";
+  font-size: 600%;
+  display: block;
+  /* To be easy for manipulation of location of
+  our quotation we give it coordinates..
+  For us to use absolute positioning; we need to make sure it's
+  parent has relative postitioning... see above in "blockquote{}"*/
+  position: absolute;
+  top: 0;
+  top: -5px;
+  left: -5px;
+}
+
+cite img {
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* ==================================================== */
+/* ========= SIGN-UP SECTION ========================== */
+/* ==================================================== */
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================================== */
+/* ========= CONTACT FORM SECTION ===================== */
+/* ==================================================== */
+
+
+
+
+
+
+/* ==================================================== */
+/* ========= FOOTER SECTION =========================== */
+/* ==================================================== */
+
+
+
+
+
+
 
 
 
