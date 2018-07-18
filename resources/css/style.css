@@ -367,11 +367,22 @@ overflow:hidden in .meal-photo{... */
 /* =============================== */
 /* ========= CITIES SECTION ======== */
 /* =============================== */
+.cities img{
+  height: 230px;
+  width: auto;
+  padding: 20px 0;
+}
 
+.cities h3 {
+  font-size: 20px;
 
+}
 
-
-
+.icon-small {
+  font-size: 170%;
+  color: orange;
+  float:left;
+}
 
 
 
