@@ -519,6 +519,7 @@ cite img {
   border-bottom-left-radius: 140px;
   width: 90%;
   margin-left: 5%;
+  /* THIS IS COOOL!!!  */
   /* box-shadow: x-axisOffset y-axisOffset blur color */
   box-shadow: 0 10px 20px gray;
 }
@@ -567,6 +568,13 @@ inherit all features from parent... */
 /* ==================================================== */
 /* ========= CONTACT FORM SECTION ===================== */
 /* ==================================================== */
+/* We learn:
+    [1] How to use a set of new HTML element to create
+        forms: form, label, input, select, option, textarea.
+    [2] How to style these elements.*/
+/* ==================================================== */
+
+
 
 
 
