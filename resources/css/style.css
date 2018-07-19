@@ -224,14 +224,15 @@ when returning back after selecting that text... to fix that use
 tag - .btn:link, .btn:visited - below...*/
 /* .btn: link,
 .btn: visited  */
-.btn {
+.btn:link,
+.btn:visited,
+/* Comes from Contact Form - section-meals */
+input[type=submit] {
   display: inline-block;
-  padding: 20px;
+  padding: 10px 30px;
   font-weight: 300;
   text-decoration: none;
-  width: auto;
-  height: auto;
-  border-radius: 20px;
+  border-radius: 200px;
   text-align: center;
   /* awesome settings... I can change color of text changing
   with -->  'color' */
@@ -240,7 +241,9 @@ tag - .btn:link, .btn:visited - below...*/
 }
 
 .btnHungry:link,
-.btnHungry:visited{
+.btnHungry:visited,
+/* Comes from Contact Form - section-meals */
+input[type=submit] {
   background-color: orange;
   border: 2px solid #CB5A0;
   color: #fff;
@@ -255,12 +258,18 @@ tag - .btn:link, .btn:visited - below...*/
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+/* Comes from Contact Form - section-meals */
+input[type=submit]:hover,
+input[type=submit]:active {
   background-color: #CB5A00;
 }
 
 .btnHungry:hover,
-.btnHungry:active {
+.btnHungry:active,
+/* Comes from Contact Form - section-meals */
+input[type=submit]:hover,
+input[type=submit]:active {
   /* here i want the color property to change
   as I mentioned in --> .btn {transition:
   background-color 0.2s, border 0.2s, color 1s;
@@ -573,17 +582,44 @@ inherit all features from parent... */
         forms: form, label, input, select, option, textarea.
     [2] How to style these elements.*/
 /* ==================================================== */
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* This is a new selector in .css you learnt in this project :) */
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+/* We added "input[type=sumbit]" in .btn class (look waaaay above)
+    because we want it to look n feel n function like .btn*/
 
 
+textarea {
+  height: 100px;
+}
 
+input[type=checkbox] {
+  margin: 10px 5px 10px 0;
+}
 
-
-
-
+/* we want to get rid of blue color box highlightings.. */
+*:focus {
+  outline: none;
+}
 
 /* ==================================================== */
 /* ========= FOOTER SECTION =========================== */
 /* ==================================================== */
+
+
 
 
 
