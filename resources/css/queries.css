@@ -1,24 +1,3 @@
-
-
-/* All our styles go into this declaration block */
-/* For small phones: from 0 to 480px */
-/* @media is the media query */
-@media only screen and (max-width: 480px) {
-
-}
-
-/* small phones to small tablets: from 481 to 767px */
-@media only screen and (max-width: 767px) {
-
-}
-
-/* Will target Ipad and portrait mode which has 768px
-ipad in landscape view has 1024px..will be added in
-next media query */
-@media only screen and (max-width: 1023px) {
-
-}
-
 /* will target ipad and all small computers... width
 smaller than 1140px row...*/
 @media only screen and (max-width: 1200px) {
@@ -28,4 +7,35 @@ smaller than 1140px row...*/
   }
 
   .row { padding: 0 2%; }
+}
+
+
+/* Will target Ipad and portrait mode which has 768px
+ipad in landscape view has 1024px..will be added in
+next media query */
+/* First I will use the developer tools to
+see what I need to change ... maybe we can
+resize the text */
+@media only screen and (max-width: 1023px) {
+  body { font-size: 18px; }
+  section { padding: 60px; }
+
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+
+/* small phones to small tablets: from 481 to 767px */
+@media only screen and (max-width: 767px) {
+
+}
+
+
+/* All our styles go into this declaration block */
+/* For small phones: from 0 to 480px */
+/* @media is the media query */
+@media only screen and (max-width: 480px) {
+
 }
