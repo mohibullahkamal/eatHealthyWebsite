@@ -4,7 +4,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html,
@@ -49,6 +50,11 @@ body {
 
 /* ==== HEADING ==== */
 header {
+  background-image: -webkit-gradient(linear,
+    left top, left bottom,
+    from(rgba(0, 0, 0, 0.4)),
+    to(rgba(0, 0, 0, 0.5))),
+    url(img/hero.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.5)),
     url(img/hero.jpg);
@@ -65,7 +71,8 @@ header {
   width: 1140px;
   top: 50%;
   left: 50%;
-  transform:translate(-50%, -50%);
+  -webkit-transform:translate(-50%, -50%);
+          transform:translate(-50%, -50%);
 }
 
 
@@ -163,6 +170,7 @@ could be reused in other classes */
   /* this is the transition magic...height set
   to 'x's..... check height in .logo:hover,
   .logo:active{.....}  */
+  -webkit-transition: height 0.3s;
   transition: height 0.3s;
 }
 .logo:hover,
@@ -190,6 +198,7 @@ could be reused in other classes */
   /* set it in % for responsive design */
   font-size: 90%;
   border-bottom: 4px solid transparent;
+  -webkit-transition: border-bottom 0.5s, background-color 1.5s, color 0.5s;
   transition: border-bottom 0.5s, background-color 1.5s, color 0.5s;
   padding: 8px 12px;
 }
@@ -209,6 +218,7 @@ a:visited {
   text-decoration: none;
   border-bottom: 1px solid orange;
   padding: 1px;
+  -webkit-transition: border-bottom 0.2s, color 0.2s;
   transition: border-bottom 0.2s, color 0.2s;
 }
 
@@ -242,6 +252,7 @@ input[type=submit] {
   text-align: center;
   /* awesome settings... I can change color of text changing
   with -->  'color' */
+  -webkit-transition: background-color 0.2s, border 0.2s, color 0.5s;
   transition: background-color 0.2s, border 0.2s, color 0.5s;
   margin-top: 50px;
 }
@@ -356,8 +367,12 @@ a black background... */
 /* We have nice transition now... lets now try to
 make the img darker when hovered... using opacity */
 .meal-photo img {
-  transform: scale(1.20);
+  -webkit-transform: scale(1.20);
+          transform: scale(1.20);
+  -webkit-transition: opacity 0.4s, -webkit-transform 0.25s;
+  transition: opacity 0.4s, -webkit-transform 0.25s;
   transition: transform 0.25s, opacity 0.4s;
+  transition: transform 0.25s, opacity 0.4s, -webkit-transform 0.25s;
   width: 100%;
   height: auto;
   opacity: 0.6;
@@ -367,7 +382,8 @@ make the img darker when hovered... using opacity */
 overflows the browser window.... we will use
 overflow:hidden in .meal-photo{... */
 .meal-photo img:hover {
-  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
   opacity: 1;
 }
 
@@ -461,6 +477,10 @@ overflow:hidden in .meal-photo{... */
 /* Using Linear gradient to make nice darker image
 in the background */
 .section-testimonials {
+  background-image: -webkit-gradient(linear,
+    left top, left bottom,
+    from(rgba(0,0,0,0.7)),
+    to(rgba(0,0,0,0.7))), url(img/back-customers.jpg);
   background-image: linear-gradient(rgba(0,0,0,0.7),
     rgba(0,0,0,0.7)), url(img/back-customers.jpg);
   background-size: cover;
@@ -536,7 +556,8 @@ cite img {
   margin-left: 5%;
   /* THIS IS COOOL!!!  */
   /* box-shadow: x-axisOffset y-axisOffset blur color */
-  box-shadow: 0 10px 20px gray;
+  -webkit-box-shadow: 0 10px 20px gray;
+          box-shadow: 0 10px 20px gray;
 }
 
 .plan-box div {
@@ -665,6 +686,7 @@ to the right... so we use the last-child sudo.. */
   text-decoration: none;
   border: 0;
   color: gray;
+  -webkit-transition: color 0.2s;
   transition: color 0.2s;
 }
 
@@ -696,6 +718,7 @@ to the right... so we use the last-child sudo.. */
 .ion-logo-twitter,
 .ion-logo-googleplus,
 .ion-logo-instagram {
+  -webkit-transition: color 0.4s;
   transition: color 0.4s;
 }
 
