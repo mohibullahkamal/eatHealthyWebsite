@@ -75,6 +75,8 @@ design issues...  */
   .app-screen { width: 30%; }
   .steps-box:first-child { text-align: center; }
 
+/* We are changing size of texts and boxes to
+adjust to the new layout */
   .works-step div {
     height: 40px;
     width: 40px;
