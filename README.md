@@ -1,5 +1,7 @@
-# Welcome to my "Eat Healthy" website !!!
-## [Link to website](https://mohibullahkamal.github.io/eatHealthyWebsite/)
+<img align="right" src="/resources/css/img/README_Preview.jpg" height="1700">
+
+## Welcome to my "Eat Healthy" website !!!
+### [Link to website](https://mohibullahkamal.github.io/eatHealthyWebsite/)
 
 
 This Project was one of my first real world, dive-in into web development. This website is designed to be responsive and mobile friendly.
@@ -24,5 +26,4 @@ This Project was one of my first real world, dive-in into web development. This 
 ---
 
 ### Website Preview:
-<img src="/resources/css/img/README_Preview.jpg" height="2000">
 
