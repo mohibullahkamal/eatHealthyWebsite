@@ -24,3 +24,13 @@ This Project was one of my first real world, dive-in into web development. This 
   - improve site load speed using reduces image file size
 - Favicon - for beautiful icons
 ---
+
+### Plugins and Tools used:
+- Magnific Popup: Responsive jQuery Lightbox Plugin - Dmitry Semenov
+- Tooltipster: The jQuery Tooltip Plugin - GitHub Pages
+- Maplace.js: A Google Maps javascript plugin for jQuery.
+- Typer.js: Typer effect
+- One Page Scroll v1.3.1: Create an Apple-like one page scroller website 
+----
+
+

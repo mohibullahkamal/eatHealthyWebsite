@@ -237,7 +237,7 @@ could be reused in other classes */
   z-index: 9999;
 }
 
-.main-nav {
+.sticky .main-nav {
   margin-top: 17px;
 }
 
