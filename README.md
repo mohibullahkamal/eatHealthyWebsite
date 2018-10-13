@@ -20,4 +20,7 @@ This Project was one of my first real world dive-in into web development. Built 
 - Performance optimization 
   - improve site load speed using reduces image file size
 - Favicon - for beautiful icons
+---
 
+### Website Preview:
+<img src="https://user-images.githubusercontent.com/9574723/46906511-e561a280-cf04-11e8-816a-c53d4f8aa75d.jpg" height="2000">
