@@ -233,7 +233,8 @@ could be reused in other classes */
   left: 0;
   width: 100%;
   background-color: #fff;
-  box-shadow: 0 2px 2px #efefef;
+  box-shadow: 0 2px 2px #e67e22;
+  z-index: 9999;
 }
 
 .main-nav {
