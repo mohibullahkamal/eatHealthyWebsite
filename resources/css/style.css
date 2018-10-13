@@ -161,8 +161,7 @@ could be reused in other classes */
 /* ======= LOGO and NAV BAR ========================== */
 /* =================================================== */
 
-.logo,
-.logo-black {
+.logo {
   height: 150px;
   width: auto;
   float: left;
@@ -177,6 +176,10 @@ could be reused in other classes */
 
 .logo-black {
   display: none;
+  height: 50px;
+  width: auto;
+  float: left;
+  margin: 5px 0;
 }
 
 
@@ -230,11 +233,16 @@ could be reused in other classes */
   left: 0;
   width: 100%;
   background-color: #fff;
+  box-shadow: 0 2px 2px #efefef;
+}
+
+.main-nav {
+  margin-top: 17px;
 }
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
-  padding: 8px 0;
+  padding: 15px 0;
   color: #555;
 }
 
