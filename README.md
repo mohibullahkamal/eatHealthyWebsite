@@ -2,7 +2,8 @@
 ## [Link to website](https://mohibullahkamal.github.io/eatHealthyWebsite/)
 
 
->This Project was one of my first real world dive-in into web development. Built solely on pure HTML and CSS to practice my skills. This website is designed to be responsive and mobile friendly.
+This Project was one of my first real world dive-in into web development. Built solely on pure HTML and CSS to practice my skills. This website is designed to be responsive and mobile friendly.
+
 ---
 
 ### Languages used:
