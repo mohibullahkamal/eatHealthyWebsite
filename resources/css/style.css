@@ -161,7 +161,8 @@ could be reused in other classes */
 /* ======= LOGO and NAV BAR ========================== */
 /* =================================================== */
 
-.logo {
+.logo,
+.logo-black {
   height: 150px;
   width: auto;
   float: left;
@@ -173,11 +174,18 @@ could be reused in other classes */
   -webkit-transition: height 0.3s;
   transition: height 0.3s;
 }
+
+.logo-black {
+  display: none;
+}
+
+
 .logo:hover,
 .logo:active{
   height: 250px;
 }
 
+/* Main Navigation */
 .main-nav {
   float: right;
   /* get rid of bullet pts. */
@@ -202,12 +210,34 @@ could be reused in other classes */
   transition: border-bottom 0.5s, background-color 1.5s, color 0.5s;
   padding: 8px 12px;
 }
+
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 4px solid orange;
   background-color: #CB5A00;
   color: white;
 }
+
+
+/* ========================================== */
+/* ====== Sticky nav ======================== */
+/* ========================================== */
+
+/*Sticky navigation bar at the top while page scrolls */
+.sticky {
+  position: fixed;   /*the nav bar stays fixed when scrolled*/
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  padding: 8px 0;
+  color: #555;
+}
+
 
 /* ========================================== */
 /* ====== LINKS ============================= */
@@ -227,8 +257,6 @@ a:active {
   color: gray;
   border-bottom: 1px solid transparent;
 }
-
-
 
 
 
@@ -325,6 +353,14 @@ input[type=submit]:active {
   display: block;
   color: orange;
   margin-bottom: 10px;
+}
+
+.sticky .logo {
+  display: none;
+}
+
+.sticky .logo-black {
+  display: block;
 }
 
 /* ==================================================== */

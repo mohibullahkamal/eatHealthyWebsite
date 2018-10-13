@@ -17,11 +17,11 @@
     <!-- we are using <header> instead of <div>because Google SEO detection
     will be efficient.. -->
     <header>
-      <nav>
+      <nav class="sticky">
         <div class="row">
           <!-- Logo -->
-          <img src="resources/css/img/logo-white.png"
-                    alt="Eat Healthy Logo" class="logo">
+          <img src="resources/css/img/logo-white.png" alt="Eat Healthy Logo" class="logo">
+          <img src="resources/css/img/logo-white.png" alt="Eat Healthy Logo" class="logo-black">
           <!-- the nav bar -->
           <ul class="main-nav">
             <li><a href="#"><strong>Food Delivery</strong></a></li>
@@ -572,15 +572,20 @@
 
     </footer>
 
+    <!-- jQuery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    <!-- respond is a fast and lightweight polyfil for CSS3 media queries -->
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    
+    <!-- This script enables use of HTML5 elements in IE browsers -->
+    <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+    
+    <!-- Allows CSS3 classes to be used across old browsers -->
+    <script type="text/javascript" src="selectivizr.js"></script>
+    
+    <!-- Our script.js folder that we created -->
+    <script src="resources/js/script.js"
+    
   </body>
-  
-  <!-- respond is a fast and lightweight polyfil for CSS3 media queries -->
-  <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-  
-  <!-- This script enables use of HTML5 elements in IE browsers -->
-  <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
-  
-  <!-- Allows CSS3 classes to be used across old browsers -->
-  <script type="text/javascript" src="selectivizr.js"></script>
-
 </html>

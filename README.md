@@ -24,6 +24,3 @@ This Project was one of my first real world, dive-in into web development. This 
   - improve site load speed using reduces image file size
 - Favicon - for beautiful icons
 ---
-
-### Website Preview:
-
