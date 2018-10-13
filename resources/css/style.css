@@ -176,15 +176,15 @@ could be reused in other classes */
 
 .logo-black {
   display: none;
-  height: 50px;
+  height: 60px;
   width: auto;
   float: left;
-  margin: 5px 0;
+  margin: 0;
 }
 
 
 .logo:hover,
-.logo:active{
+.logo:active {
   height: 250px;
 }
 
@@ -247,6 +247,12 @@ could be reused in other classes */
   color: #555;
 }
 
+.sticky logo {
+  display: none;
+}
+.sticky .logo-black {
+  display: block;
+}
 
 /* ========================================== */
 /* ====== LINKS ============================= */

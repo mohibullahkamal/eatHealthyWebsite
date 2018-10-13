@@ -1,3 +1,5 @@
+/*global $*/
+
 $(document).ready(function() {
     $('.js--section-features').waypoint(function(direction) {
         if (direction == "down") {
@@ -9,5 +11,4 @@ $(document).ready(function() {
             offset: '60px;'
     });
 });
-
 
