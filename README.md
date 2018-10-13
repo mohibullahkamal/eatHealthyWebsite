@@ -23,4 +23,5 @@ This Project was one of my first real world dive-in into web development. Built 
 ---
 
 ### Website Preview:
-<img src="https://user-images.githubusercontent.com/9574723/46906511-e561a280-cf04-11e8-816a-c53d4f8aa75d.jpg" height="2000">
+<img src="/resources/css/img/README_Preview.jpg" height="2000">
+
