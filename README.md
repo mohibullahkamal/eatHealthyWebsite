@@ -32,6 +32,7 @@ This Project was one of my first real world, dive-in into web development. This 
 - Typer.js: Typer effect
 - One Page Scroll v1.3.1: Create an Apple-like one page scroller website 
 - Waypoint: Waypoints is the easiest way to trigger a function when you scroll to an element.
+- Animate.css: Awesome css animation
 ----
 
 
