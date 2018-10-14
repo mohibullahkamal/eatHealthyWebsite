@@ -98,7 +98,7 @@ $(document).ready(function() {
     });
 
     $('.js--wp-2').waypoint(function(direction) {
-        $('.js--wp-2').addClass('animated fadeInUp');
+        $('.js--wp-2').addClass('animated fadeInDownBig');
     }, {
         offset: '50%'
     });
@@ -114,8 +114,5 @@ $(document).ready(function() {
     }, {
         offset: '50%'
     });
-
-
-
 
 });
