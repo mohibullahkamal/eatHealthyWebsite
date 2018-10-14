@@ -1,6 +1,7 @@
 /*global $*/
 /*global location*/
 /*global dataLayer*/
+/*global GMaps*/
 
 $(document).ready(function() {
     
@@ -115,5 +116,15 @@ $(document).ready(function() {
     }, {
         offset: '50%'
     });
+
+
+    // ************ Maps ******************
+    // *************************************
+    new GMaps({
+      div: '.map',
+      lat: -12.043333,
+      lng: -77.028333
+    });
+
 
 });
