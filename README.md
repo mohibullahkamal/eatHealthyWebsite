@@ -21,7 +21,8 @@ This Project was one of my first real world, dive-in into web development. This 
 ### Extras:
 - Search Engine Optimization (SEO)
 - Performance optimization 
-  - improve site load speed using reduces image file size
+  - Optimize heavy images
+  - Minify CSS and jQuery Code
 - Favicon - for beautiful icons
 ---
 
