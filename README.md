@@ -19,11 +19,11 @@ This Project was one of my first real world, dive-in into web development. This 
 ---
 
 ### Extras:
-- Search Engine Optimization (SEO)
+- Favicon: for beautiful icons.
 - Performance optimization 
   - Optimize heavy images
   - Minify CSS and jQuery Code
-- Favicon - for beautiful icons
+- Search Engine Optimization (SEO): techniques that optimize and promote a website; for increased search engine visibility.
 ---
 
 ### Plugins and Tools used:
