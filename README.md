@@ -26,6 +26,8 @@ This Project was one of my first real world, dive-in into web development. This 
 - Search Engine Optimization (SEO): techniques that optimize and promote a website; for increased search engine visibility.
   - Add <meta> tag containing "name" and "content"
   - Check HTML code in "http://validator.w3.org/" to fix any HTML coding error.
+- Site Maintenance
+  - Using Google Analytics: monitor statistics (time visitors stay), number of website visits, average number of payed views per visitor, and feedbacks to improve website.
 ---
 
 ### Plugins and Tools used:
