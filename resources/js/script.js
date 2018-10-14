@@ -1,5 +1,6 @@
 /*global $*/
 /*global location*/
+/*global dataLayer*/
 
 $(document).ready(function() {
     
