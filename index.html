@@ -448,7 +448,7 @@
     <div class="map-box">
       
       <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d161526.4058072316!2d5.856444!3d50.759813289265104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0997cb08a191d%3A0x63a30eae0b0e444f!2sAachen!5e0!3m2!1sen!2sde!4v1539595558959" width="1000" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>      
-      <div class="form-box">
+      <div class="form-box" id="form">
       
         <div class="row">
           <h2>We're happy to hear from you</h2>
@@ -461,8 +461,18 @@
             right now cause it requires advanced JS and backend
             technologies to send user data; none of them is in
             our project scope... -->
-          <form method="post" action="#" class="contact-form">
+          <form method="post" action="mailer.php" class="contact-form">
             
+            
+            <div class="row">
+              <!-- Contact form Success and error messages -->
+              <div class="form-messages success">
+                Thank you! Your message has been sent.
+              </div>
+              <!--<div class="form-messages error">Opps! Something went wrong. Please try again!</div>-->
+            </div>    
+            
+          
             <!-- 1st/5 row of the FORM -->
             <div class="row">
               <div class="col span-1-of-3">
@@ -623,3 +633,4 @@
     
   </body>
 </html>
+
