@@ -9,7 +9,7 @@ This Project was one of my first real world, dive-in into web development. This 
 ---
 
 ### Languages used:
-- HTML5, CSS3, JS, PHP
+- HTML5, CSS3, JS, jQuery
 ---
 
 ### Libraries used:
@@ -29,7 +29,6 @@ This Project was one of my first real world, dive-in into web development. This 
 - Site Maintenance
   - Using Google Analytics: monitor statistics (time visitors stay), number of website visits, average number of payed views per visitor, and feedbacks to improve website.
 - Google Maps Embeded
-- PHP: build functional contact form. 
 ---
 
 ### Plugins and Tools used:
