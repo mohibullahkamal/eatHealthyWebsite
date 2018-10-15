@@ -447,95 +447,102 @@
     <!-- ===============================================  -->
     <div class="map-box">
       
-      <div class="row">
-        <h2>We're happy to hear from you</h2>
+      <div class="map"></div>
+      
+      <div class="form-box">
+      
+        <div class="row">
+          <h2>We're happy to hear from you</h2>
+        </div>
+        <!-- A "form" is a group of input elements, and we have
+          an HTML element where we put all of them.. we call it
+          from element..-->
+        <div class="row">
+          <!-- We won't do anything with "post" method
+            right now cause it requires advanced JS and backend
+            technologies to send user data; none of them is in
+            our project scope... -->
+          <form method="post" action="#" class="contact-form">
+            
+            <!-- 1st/5 row of the FORM -->
+            <div class="row">
+              <div class="col span-1-of-3">
+                <!-- for="id" is a cool feature... click label to
+                      auto-select "Name"-label; applicable with
+                      text only..-->
+                <label for="name">Name</label>
+              </div>
+              <!-- This col will be twice as wide as above col.. -->
+              <div class="col span-2-of-3">
+                <!-- type-> sets what kind of input; id->tells property;
+                      placeholder->preContained text..in text box..  -->
+                <input type="text" name="name" id="name"
+                  placeholder="Your name" required>
+              </div>
+            </div>
+  
+            <!-- 2nd/5 row of the FORM -->
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label for="email">Email</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input type="email" name="email" id="email"
+                  placeholder="Your email" required>
+              </div>
+            </div>
+  
+            <!-- 3rd/5 row of the FORM -->
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label for="find-us">How did you find us?</label>
+              </div>
+              <div class="col span-2-of-3">
+                <select name="find-us" id="find-us">
+                  <option value="friends" selected>Friends</option>
+                  <option value="search">Search engine</option>
+                  <option value="ad">Advertisements</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+            </div>
+  
+            <!-- 4th/5 row of the FORM -->
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label>Newsletter?</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input type="checkbox" name="news" id="news"
+                  checked>Yes, please.
+              </div>
+            </div>
+  
+            <!-- 5th/5 row of the FORM -->
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label>Drop us a line</label>
+              </div>
+              <div class="col span-2-of-3">
+                <textarea name="message" placeholder="Your message"></textarea>
+              </div>
+            </div>
+  
+            <!-- SUBMIT BUTTON -->
+            <div class="row">
+              <div class="col span-1-of-3">
+                <label>&nbsp;</label>
+              </div>
+              <div class="col span-2-of-3">
+                <input type="submit" value="Send it!">
+              </div>
+            </div>
+
+          </form>
+        
+        </div>
       </div>
-
-      <!-- A "form" is a group of input elements, and we have
-        an HTML element where we put all of them.. we call it
-        from element..-->
-      <div class="row">
-        <!-- We won't do anything with "post" method
-          right now cause it requires advanced JS and backend
-          technologies to send user data; none of them is in
-          our project scope... -->
-        <form method="post" action="#" class="contact-form">
-          <!-- 1st/5 row of the FORM -->
-          <div class="row">
-            <div class="col span-1-of-3">
-              <!-- for="id" is a cool feature... click label to
-                    auto-select "Name"-label; applicable with
-                    text only..-->
-              <label for="name">Name</label>
-            </div>
-            <!-- This col will be twice as wide as above col.. -->
-            <div class="col span-2-of-3">
-              <!-- type-> sets what kind of input; id->tells property;
-                    placeholder->preContained text..in text box..  -->
-              <input type="text" name="name" id="name"
-                placeholder="Your name" required>
-            </div>
-          </div>
-
-          <!-- 2nd/5 row of the FORM -->
-          <div class="row">
-            <div class="col span-1-of-3">
-              <label for="email">Email</label>
-            </div>
-            <div class="col span-2-of-3">
-              <input type="email" name="email" id="email"
-                placeholder="Your email" required>
-            </div>
-          </div>
-
-          <!-- 3rd/5 row of the FORM -->
-          <div class="row">
-            <div class="col span-1-of-3">
-              <label for="find-us">How did you find us?</label>
-            </div>
-            <div class="col span-2-of-3">
-              <select name="find-us" id="find-us">
-                <option value="friends" selected>Friends</option>
-                <option value="search">Search engine</option>
-                <option value="ad">Advertisements</option>
-                <option value="other">Other</option>
-              </select>
-            </div>
-          </div>
-
-          <!-- 4th/5 row of the FORM -->
-          <div class="row">
-            <div class="col span-1-of-3">
-              <label>Newsletter?</label>
-            </div>
-            <div class="col span-2-of-3">
-              <input type="checkbox" name="news" id="news"
-                checked>Yes, please.
-            </div>
-          </div>
-
-          <!-- 5th/5 row of the FORM -->
-          <div class="row">
-            <div class="col span-1-of-3">
-              <label>Drop us a line</label>
-            </div>
-            <div class="col span-2-of-3">
-              <textarea name="message" placeholder="Your message"></textarea>
-            </div>
-          </div>
-
-          <!-- SUBMIT BUTTON -->
-          <div class="row">
-            <div class="col span-1-of-3">
-              <label>&nbsp;</label>
-            </div>
-            <div class="col span-2-of-3">
-              <input type="submit" value="Send it!">
-            </div>
-          </div>
-
-        </form>
-      </div>
+      
     </div>
 
 
