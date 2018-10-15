@@ -87,6 +87,34 @@ adjust to the new layout */
 
   .works-step { margin-bottom: 20px; }
   .works-step:last-of-type { margin-bottom: 20px; }
+  
+  
+
+/* ==================================================== */
+/* ============= MAPS for responsive mobile =========== */
+/* ==================================================== */
+  .map-box {
+     width: 100%;
+     height: auto;
+     position: relative;
+  }
+  
+  .map {
+     width: 100%;
+     height: 300px;
+     position: relative;
+     z-index: 0;
+  }
+  
+  .form-box {
+     position: relative;
+     width: 100%;
+     height: auto; 
+     padding-top: 30px ;
+  }
+
+  
+  
 }
 
 
