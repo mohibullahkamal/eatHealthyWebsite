@@ -9,7 +9,7 @@ This Project was one of my first real world, dive-in into web development. This 
 ---
 
 ### Languages used:
-- HTML5, CSS3, JS, jQuery
+- HTML5, CSS3, JS
 ---
 
 ### Libraries used:
