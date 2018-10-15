@@ -28,7 +28,7 @@ This Project was one of my first real world, dive-in into web development. This 
   - Check HTML code in "http://validator.w3.org/" to fix any HTML coding error.
 - Site Maintenance
   - Using Google Analytics: monitor statistics (time visitors stay), number of website visits, average number of payed views per visitor, and feedbacks to improve website.
-- Google Maps integration
+- Google Maps Embeded
 ---
 
 ### Plugins and Tools used:
@@ -39,7 +39,7 @@ This Project was one of my first real world, dive-in into web development. This 
 - One Page Scroll v1.3.1: Create an Apple-like one page scroller website 
 - Waypoint: Waypoints is the easiest way to trigger a function when you scroll to an element.
 - Animate.css: Awesome css animation
-- gmaps.js: google maps api.
+- Embed Google maps
 ---
 
 

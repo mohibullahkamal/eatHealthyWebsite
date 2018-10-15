@@ -117,14 +117,4 @@ $(document).ready(function() {
         offset: '50%'
     });
 
-
-    // ************ Maps ******************
-    // *************************************
-    new GMaps({
-      div: '.map',
-      // Aachen latitude and longitude...
-      lat: 50.7598133,
-      lng: 5.956444,11
-    });
-
 });
