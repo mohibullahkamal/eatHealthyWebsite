@@ -1,4 +1,7 @@
-<img align="right" src="/resources/css/img/README_Preview.jpg" height="1700">
+
+<a href="https://mohibullahkamal.github.io/eatHealthyWebsite/">
+  <img align="right" src="/resources/css/img/README_Preview.jpg" height="1700">
+</a>
 
 ## Welcome to my "Eat Healthy" website !!!
 ### [Link to website](https://mohibullahkamal.github.io/eatHealthyWebsite/)
