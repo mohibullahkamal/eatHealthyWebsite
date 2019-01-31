@@ -46,7 +46,7 @@ This Project was one of my first real world, dive-in into web development. This 
 ---
 
 
-*`Full Disclosure: I followed the Awesome Udemy course by Jonas Schmedtmann (Build Responsive Real World Websites with HTML5 and CSS3). He is a great teacher and I learned to build Real World Websites, and how to use Third Party API and Open Source Code to my advantage.`*
+*`Note: I followed the Awesome course by Jonas Schmedtmann (Build Responsive Real World Websites with HTML5 and CSS3). He is a great teacher and I learned to build Real World Websites, and how to use Third Party API and Open Source Code to my advantage.`*
 
 ---
 
